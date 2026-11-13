@@ -1,0 +1,14 @@
+# Tested environment (recorded in the frozen experiment logs):
+#   Python 3.13.16 | torch 2.15.0+cpu | scikit-learn 1.6.1 | NumPy 2.3.5 | pandas 2.2.3
+# torch: the tested build is the CPU wheel (local version 2.15.0+cpu), which is
+# served from the PyTorch CPU index below, not plain PyPI. The previous pin
+# "torch==2.15.0" did not identify the tested CPU build and has been corrected.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0+cpu
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.17.1
+matplotlib==3.11.2
+joblib==1.5.3
+openpyxl==3.1.5

@@ -1,0 +1,29 @@
+{
+ "split_seed": 42,
+ "features": [
+  "MedInc",
+  "HouseAge",
+  "AveRooms",
+  "AveBedrms",
+  "Population",
+  "AveOccup",
+  "Latitude",
+  "Longitude"
+ ],
+ "n": 20640,
+ "tier1": {
+  "train": 12384,
+  "val_es": 2064,
+  "sensitivity": 2064,
+  "test": 4128
+ },
+ "tier2": {
+  "train": 12338,
+  "val_es": 1762,
+  "sensitivity": 1762,
+  "south_holdout_reserve": 1763,
+  "test_north": 3015
+ },
+ "sensitivity_subset_rule": "Frozen in this file before any model/sensitivity computation; used ONLY for S_l(r); never for early stopping (val_es) or final evaluation (test).",
+ "candidate_config_log": "See configs/candidate_configurations.json"
+}

@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+# Generated model checkpoints and run outputs (large; distribute separately if needed)
+models/**/*.pt
+models/**/*.pth
+results/**/*.pt
+results/**/*.pth
+results/**/*.joblib

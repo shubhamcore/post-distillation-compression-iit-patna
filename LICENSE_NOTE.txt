@@ -1,0 +1,1 @@
+No open-source license is asserted by this repository at this time. Unless the author adds a license, default copyright rules apply. The California Housing dataset is external; consult its source documentation and the dataset citation/licence statement supplied with the project.
