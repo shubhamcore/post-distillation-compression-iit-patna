@@ -12,25 +12,37 @@ The project studies low-rank SVD compression of a knowledge-distilled neural-net
 
 This is an experimental evaluation, not a claim to invent a new SVD or knowledge-distillation algorithm.
 
-## Repository contents
+## Source bundle
 
-The project source bundle is being added to this repository. It includes Python scripts for data preparation, model training, SVD compression, rank allocation, fine-tuning, evaluation, and baseline comparisons, along with frozen split definitions and execution notes.
+The prepared source-code archive is provided separately as **Shubham-Post-Distillation-Compression-Repository.zip**. The archive contains the Python scripts, dependency list, split files, and execution notes. The source files have **not yet been committed to this GitHub repository**; add them before submitting this repository as the public code link.
 
-## Environment
+## Local setup
 
-Create a virtual environment and install the dependencies:
+After extracting the source archive, open a terminal in its project folder and run:
 
 ```bash
 python -m venv .venv
-# Windows:
-.venv\\Scripts\\activate
-# macOS/Linux:
-source .venv/bin/activate
+```
 
+Activate the environment:
+
+**Windows PowerShell**
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+**macOS/Linux**
+```bash
+source .venv/bin/activate
+```
+
+Then install dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
-Use the split files supplied with the repository. Do not regenerate them when reproducing the reported evaluation.
+Use the supplied frozen split files. Do not regenerate them when reproducing the reported evaluation.
 
 ## Reproducibility and interpretation
 
@@ -43,10 +55,8 @@ Use the split files supplied with the repository. Do not regenerate them when re
 
 ## Citation
 
-Please cite the project as:
-
 Shubham, *Post-Distillation Compression of Neural Networks Using Sensitivity-Aware Adaptive Low-Rank Decomposition*, IIT Patna, 2026.
 
-## Status
+## Current repository status
 
-The repository README is in place. The source-code bundle and full file tree must be uploaded before this repository should be treated as a complete public code submission.
+The public repository and this README have been created. The source-code archive must still be pushed to the repository before it is complete.
